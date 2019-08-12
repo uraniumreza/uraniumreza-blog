@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import SEO from '../components/seo'
@@ -35,9 +35,7 @@ export default function PageTemplate({ data: { mdx, site }, pageContext }) {
       <section className="center blog">
         <article className="container small">
           <header>
-            <h1>
-              <Link to="/">«</Link> {mdx.frontmatter.title}
-            </h1>
+            <h1>{mdx.frontmatter.title}</h1>
             <p>
               {formatPostDate(mdx.frontmatter.date)}
               {` • ${formatReadingTime(mdx.timeToRead)}`}
@@ -48,55 +46,12 @@ export default function PageTemplate({ data: { mdx, site }, pageContext }) {
           <MDXRenderer scope={{ Embed }}>{mdx.body}</MDXRenderer>
         </article>
         <footer className="container small">
-          <small>
-            <a
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              href={`https://twitter.com/search?q=${publicUrl}`}
-            >
-              Discuss on Twitter
-            </a>{' '}
-            &middot;{' '}
-            <a
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              href={`${site.siteMetadata.githubUrl}/edit/master/content${
-                mdx.fields.slug
-              }index.md`}
-            >
-              Edit this post on GitHub
-            </a>
-          </small>
           <hr
             style={{
               margin: `24px 0`,
             }}
           />
           <Bio />
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
-          >
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
         </footer>
       </section>
     </div>
