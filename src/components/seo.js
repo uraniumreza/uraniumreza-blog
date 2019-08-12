@@ -18,6 +18,7 @@ function SEO({ description, lang, meta, keywords, title, canonicalLink }) {
           siteMetadata {
             title
             description
+            image
             author
             social {
               twitter
@@ -48,6 +49,10 @@ function SEO({ description, lang, meta, keywords, title, canonicalLink }) {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: site.siteMetadata.image,
         },
         {
           name: `twitter:card`,
