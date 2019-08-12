@@ -1,8 +1,12 @@
 ---
-title: "Tunneling your Local Servers"
-description: "…show the world what awesome things you’re building"
-date: "2018-11-20T13:39:37.388Z"
-categories: []
+title: 'Tunneling your Local Servers'
+description: '…show the world what awesome things you’re building'
+date: '2018-11-20'
+categories:
+  - Web Dev
+  - Networking
+  - ngrok
+  - Dev Ops
 published: true
 canonical_link: https://medium.com/@uraniumreza/tunneling-your-local-servers-ceb7f6bae085
 redirect_from:
@@ -38,7 +42,7 @@ whoof! tired already? Let’s see how we can do this tunneling thing.
 Ngrok is easy to install. Download a single binary with zero run-time dependencies, unzip it and run it on your terminal.
 
 [**ngrok - download**  
-_ngrok secure introspectable tunnels to localhost webhook development tool and debugging tool_ngrok.com](https://ngrok.com/download "https://ngrok.com/download")[](https://ngrok.com/download)
+\_ngrok secure introspectable tunnels to localhost webhook development tool and debugging tool_ngrok.com](https://ngrok.com/download 'https://ngrok.com/download')[](https://ngrok.com/download)
 
 On Linux or OSX you can unzip ngrok from a terminal with the following command. On Windows, just double click ngrok.zip.
 
@@ -56,7 +60,7 @@ $ ./ngrok authtoken <your-auth-token>
 
 #### Expose a local webserver
 
-Now, you’ve started a local webserver, fire up ngrok by pointing it to the port where your local server is running — _(in my case it was 3000)_
+Now, you’ve started a local webserver, fire up ngrok by pointing it to the port where your local server is running — *(in my case it was 3000)*
 
 ```
 $ ./ngrok http 3000
@@ -66,9 +70,9 @@ The output will list a forwarding URL, which will point to your local server. so
 
 ![](./asset-2.png)
 
-So, now my [_localhost:3000_](http://localhost:3000/)  can be accessed from anywhere in the world through this url — [_https://983e16da.ngrok.io_](http://983e16da.ngrok.io)  **_Cool!_**
+So, now my [_localhost:3000_](http://localhost:3000/) can be accessed from anywhere in the world through this url — [_https://983e16da.ngrok.io_](http://983e16da.ngrok.io) **_Cool!_**
 
-Ngrok provides an awesome request inspector; [_localhost:4040/inspect/http_](http://localhost:4040/inspect/http)  go to this link and you can see the requests that are coming in and the responses your app is giving back. And in [localhost:4040/status](http://localhost:4040/status) page you can see how your app is performing locally.
+Ngrok provides an awesome request inspector; [_localhost:4040/inspect/http_](http://localhost:4040/inspect/http) go to this link and you can see the requests that are coming in and the responses your app is giving back. And in [localhost:4040/status](http://localhost:4040/status) page you can see how your app is performing locally.
 
 ![](./asset-3.png)
 
@@ -121,4 +125,4 @@ ngrok does not log or store any data transmitted through your tunneled connectio
 _Read the_ [_documentation_](https://ngrok.com/docs) _for instructions on advanced features like setting custom subdomains, adding HTTP authentication, and a lot more. Here is another way of how you can do local-tunneling —_
 
 [**Expose your development application to the world without the hassle of deployment !!!**  
-_Share your application with others before deployment using localtunnel or ngrok_codeburst.io](https://codeburst.io/expose-your-development-application-to-the-world-without-the-hassle-of-deployment-9ce83f4542d3 "https://codeburst.io/expose-your-development-application-to-the-world-without-the-hassle-of-deployment-9ce83f4542d3")[](https://codeburst.io/expose-your-development-application-to-the-world-without-the-hassle-of-deployment-9ce83f4542d3)
+\_Share your application with others before deployment using localtunnel or ngrok_codeburst.io](https://codeburst.io/expose-your-development-application-to-the-world-without-the-hassle-of-deployment-9ce83f4542d3 'https://codeburst.io/expose-your-development-application-to-the-world-without-the-hassle-of-deployment-9ce83f4542d3')[](https://codeburst.io/expose-your-development-application-to-the-world-without-the-hassle-of-deployment-9ce83f4542d3)

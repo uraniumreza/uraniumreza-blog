@@ -1,12 +1,13 @@
 ---
-title: "How to identify and resolve wasted renders in React"
-description: "So, recently I was thinking about performance profiling of a react app that I was working on and suddenly thought to set a few perf-metrics"
-date: "2019-04-22T15:17:08.070Z"
-categories: []
+title: 'How to identify and resolve wasted renders in React'
+description: 'So, recently I was thinking about performance profiling of a react app that I was working on and suddenly thought to set a few perf-metrics'
+date: '2019-04-22'
+categories:
+  - React
+  - Performance
+  - Optimization
+  - Web Dev
 published: true
-canonical_link: https://medium.com/@uraniumreza/how-to-identify-and-resolve-wasted-renders-in-react-cc4b1e910d10
-redirect_from:
-  - /how-to-identify-and-resolve-wasted-renders-in-react-cc4b1e910d10
 ---
 
 ![](./asset-1.png)
