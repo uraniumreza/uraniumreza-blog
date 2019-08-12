@@ -21,16 +21,14 @@ function Bio() {
           siteMetadata {
             author
             shortBio
-            social {
-              twitter
-            }
+            bio
           }
         }
       }
     `
   )
 
-  const { author, social, shortBio } = site.siteMetadata
+  const { author, bio, shortBio } = site.siteMetadata
 
   return (
     <div
@@ -52,14 +50,10 @@ function Bio() {
           borderRadius: '50%',
         }}
       />
-      <p style={{ margin: 0 }}>
+      <p style={{ margin: 0, fontSize: '1.6rem' }}>
         Written by <strong>{author}</strong>
-        {shortBio ? ` ${shortBio}` : ''}.{` `}
-        {social.twitter ? (
-          <a href={`https://twitter.com/${social.twitter}`}>
-            You should follow them on Twitter.
-          </a>
-        ) : null}
+        <br />
+        {shortBio ? ` ${shortBio}` : `${bio}`}
       </p>
     </div>
   )

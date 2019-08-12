@@ -1,12 +1,13 @@
 ---
-title: "Optional Chaining in React Native"
-description: "In June 2018 release of React Native (0.56.0) they had announced the enabling of optional chaining operator ?. plugins. Previously we’ve to…"
-date: "2018-07-02T07:19:33.293Z"
-categories: []
+title: 'Optional Chaining in React Native'
+description: 'In June 2018 release of React Native (0.56.0) they had announced the enabling of optional chaining operator ?. plugins. Previously we’ve to…'
+date: '2018-07-02'
+categories:
+  - Javascript
+  - React Native
+  - ESNext
+  - Web Dev
 published: true
-canonical_link: https://medium.com/@uraniumreza/optional-chaining-in-react-native-805a374788d3
-redirect_from:
-  - /optional-chaining-in-react-native-805a374788d3
 ---
 
 ![](./asset-1.jpeg)
