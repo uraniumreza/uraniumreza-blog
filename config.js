@@ -4,7 +4,7 @@ module.exports = {
   // the description of the website (eg. what shows on Google)
   description: "Nayeem Reza's blog",
   // this will be used as og:image
-  image: 'https://i.imgur.com/VgAAYIK.png',
+  image: 'https://www.uraniumreza.me/social-share.png.png',
   // a short bio shown at the bottom of your blog posts
   // It should complete the sentence: Written by Nayeem Reza ...
   shortBio: '',
@@ -13,7 +13,7 @@ module.exports = {
   author: 'Nayeem Reza',
   githubUrl: 'https://github.com/uraniumreza/uraniumreza-blog',
   // replace this by the url where your website will be published
-  siteUrl: 'http://www.uraniumreza.me',
+  siteUrl: 'https://www.uraniumreza.me',
   social: {
     // leave the social media you do not want to appear as empty strings
     twitter: 'uraniumreza',
