@@ -1,8 +1,8 @@
 {
   "name": "uraniumreza-blog",
-  "private": true,
-  "description": "",
-  "version": "0.1.0",
+  "private": false,
+  "description": "Personal website - https://www.uraniumreza.me",
+  "version": "1.0.0",
   "author": "Nayeem Reza <reza.uranium@gmail.com>",
   "repository": {
     "type": "git",

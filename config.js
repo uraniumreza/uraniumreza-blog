@@ -9,16 +9,16 @@ module.exports = {
   // a longer bio showing on the landing page of the blog
   bio: `Software Engineer | Tech Enthusiast | Traveler.`,
   author: 'Nayeem Reza',
-  githubUrl: 'https://github.com/',
+  githubUrl: 'https://github.com/uraniumreza/uraniumreza-blog',
   // replace this by the url where your website will be published
-  siteUrl: 'http://localhost:8000',
+  siteUrl: 'http://www.uraniumreza.me',
   social: {
     // leave the social media you do not want to appear as empty strings
-    twitter: '',
-    medium: '@uraniumreza',
-    facebook: '',
-    github: '',
-    linkedin: '',
-    instagram: '',
+    twitter: 'uraniumreza',
+    medium: '',
+    facebook: 'nay33mr3za',
+    github: 'uraniumreza',
+    linkedin: 'mdnayeemreza',
+    instagram: 'reza.uranium',
   },
 }
