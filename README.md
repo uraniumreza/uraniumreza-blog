@@ -4,6 +4,7 @@
 
 ## Tasks
 
+- [ ] Fix mobile view (font-size, layout, blog)
 - [ ] Assign a featured image as `og:image` for each blog
 - [ ] Create different pages
 - [ ] Header to access different tabs
