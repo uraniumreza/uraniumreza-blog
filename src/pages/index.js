@@ -6,12 +6,14 @@ import SEO from '../components/seo'
 import Section from '../components/section'
 import Pills from '../components/pills'
 import MainBio from '../components/main-bio'
+import Nav from '../components/nav'
 import { formatPostDate, formatReadingTime } from '../utils/dates'
 
 import './blog-listing.css'
 
 const BlogIndexPage = ({ data: { allMdx } }) => (
   <Layout>
+    <Nav />
     <SEO />
     <Section centered name="main-bio">
       <MainBio />

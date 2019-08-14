@@ -1,0 +1,40 @@
+.nav-container {
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  width: 20rem;
+}
+.site-logo:hover {
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.item-container {
+  display: flex;
+}
+
+.item {
+  font-family: monospace;
+  font-size: 1.05em;
+  color: #fa42c1;
+}
+.item:hover {
+  cursor: pointer;
+  color: #5544c2;
+}
+.item:first-child {
+  margin-left: 0;
+}
+
+.separator {
+  font-family: monospace;
+  color: #c7c7c7;
+  font-size: 0.8em;
+  line-height: 2.25em;
+  margin: 0 20px;
+}

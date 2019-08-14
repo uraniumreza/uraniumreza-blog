@@ -3,10 +3,12 @@ import PropTypes from 'prop-types'
 
 import './section.css'
 
-const Section = ({ name, centered, children, big }) => {
+const Section = ({ name, centered, children, big, containerStyle = {} }) => {
   return (
     <section id={name} className={centered ? 'center' : ''}>
-      <div className={`${big ? '' : 'container small'}`}>{children}</div>
+      <div className={`${big ? '' : 'container small'}`} style={containerStyle}>
+        {children}
+      </div>
     </section>
   )
 }
