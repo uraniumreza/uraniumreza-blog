@@ -1,15 +1,15 @@
 ---
-title: 'Load Balencer'
+title: 'Load Balancer'
 description: 'Suppose we have got a list of server instances that serves our client requests and the Load balancer efficiently distributes incoming network requests across those server instances.'
 date: '2020-01-21'
 categories:
-  - Software Development
-  - Scalability
-  - System Design
+ - Software Development
+ - Scalability
+ - System Design
 published: true
 ---
 
-## What is a Load Balencer
+## What is a Load Balancer
 
 Suppose we have got a list of server instances that serves our client requests and the Load balancer efficiently distributes incoming network requests across those server instances.
 
@@ -19,7 +19,7 @@ If a single server goes down, the load balancer redirects traffic to the remaini
 - Ensures high availability and reliability by sending requests only to servers that are online
 - Provides the flexibility to add or subtract servers as demand dictates
 
-## Load Balencing Algorithms
+## Load Balancing Algorithms
 
 There are different load balancing algorithms; such as -
 
@@ -27,7 +27,7 @@ There are different load balancing algorithms; such as -
 2) Least Connections – A new request is sent to the server with the fewest current connections to clients. The relative computing capacity of each server is factored into determining which one has the least connections.
 3) IP Hash – The IP address of the client is used to determine which server receives the request.
 
-We can choose any of the load balancing method depends on your need. Different load balancing algorithms provide different benefits.
+We can choose any of the load balancing methods depends on our needs. Different load balancing algorithms provide different benefits.
 
 ## Sticky Session
 
