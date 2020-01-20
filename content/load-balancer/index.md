@@ -23,9 +23,9 @@ If a single server goes down, the load balancer redirects traffic to the remaini
 
 There are different load balancing algorithms; such as -
 
-1) Round Robin – Requests are distributed across the group of servers sequentially.
-2) Least Connections – A new request is sent to the server with the fewest current connections to clients. The relative computing capacity of each server is factored into determining which one has the least connections.
-3) IP Hash – The IP address of the client is used to determine which server receives the request.
+1. Round Robin – Requests are distributed across the group of servers sequentially.
+2. Least Connections – A new request is sent to the server with the fewest current connections to clients. The relative computing capacity of each server is factored into determining which one has the least connections.
+3. IP Hash – The IP address of the client is used to determine which server receives the request.
 
 We can choose any of the load balancing methods depends on our needs. Different load balancing algorithms provide different benefits.
 
