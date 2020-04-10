@@ -6,11 +6,11 @@ categories: []
 published: false
 ---
 
-![Photo by [Flipboard](https://unsplash.com/@flipboard?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](./asset-1)
+![Photo by [Flipboard](https://unsplash.com/@flipboard?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](./asset-1.jpeg)
 
 #### Background
 
-  
+
 
 We have implemented two methods for extractive Bengali text summarizer. One is summarizer using TF(Term frequency) Aonother one is summarizar using TF\_IDF(Term frequency & Inverse Document Frequency).
 
@@ -67,7 +67,7 @@ The above summary generation is extractive methods. In future, we have a plan to
 
 \[3\] [An Innovative Approach of Bangla Text Summarization by Introducing Pronoun Replacement and Improved Sentence Ranking](http://jips-k.org/q.jips?cp=pp&pn=480)
 
-  
+
 
 #### Resource
 
