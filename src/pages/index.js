@@ -25,7 +25,7 @@ const BlogIndexPage = ({ data: { allMdx } }) => (
           <h1>{post.frontmatter.title}</h1>
           <p>
             {formatPostDate(post.frontmatter.date)}
-            {` • ${formatReadingTime(post.timeToRead)}`}
+            {` • ${formatReadingTime(post.timeToRead + 2)}`}
           </p>
           <Pills items={post.frontmatter.categories} />
           <p>{post.frontmatter.description}</p>
