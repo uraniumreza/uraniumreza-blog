@@ -9,12 +9,9 @@ const Nav = () => {
     <Section
       centered
       containerStyle={{
-        position: 'fixed',
-        top: 0,
         backgroundColor: '#FFF',
         width: '100vw',
         height: '75px',
-        zIndex: 9999,
       }}
     >
       <div className="nav-container">
