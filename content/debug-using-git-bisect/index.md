@@ -1,6 +1,6 @@
 ---
 categories:
-  - "Software Development"
+  - Software Development
   - Debugging
   - Git
 date: "2020-05-11"
